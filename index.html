@@ -10,24 +10,22 @@
 
 
 <body>
-    <!--Added h1-->
-    <h1> Welcome To TechSapp!</h1>
+    <!--Added h1 and changed text size-->
+    <h1 span style="font-size: 40px" id="jumplink"> Welcome To TechSapp!</h1>
 
-    <!--Linked second page to index.html-->
-    <a href="movies.html"> <strong>The Movies!</strong></a>
+    <a href="#jumplink"> What is Tech?</a>
+    <a href="#jumplink2">Articles</a>
+    <a href="#jumplink3">Movies</a>
 
-    <!--Brief statement about tech 2018-->
+    <!--Brief statement about tech -->
     <p>
+        Technology is the science or knowledge put into practical use to solve problems or invent useful tools.
         In todays day and age we find ourselves in a place where the 
         technology around us continue to change and improve for the better!
     </p>
-    <p>
-        <!--Added a jumplink linking 'list' to the list below-->
-        The following is a <a href="#jumplink">list</a> of some of the top tech out there today!  
-    </p>
 
     <!--Added h2 and changed size to 40px-->
-    <h2 id="jumplink"> <span style="font-size: 20px"> Top 5 Tech 2018</span></h2>
+    <h2 id="jumplink2"><span style="font-size: 35px"> Top 5 Tech 2018</span></h2>
     
     <!--unordered list of external news articles opening in new tab-->
     <ul>
@@ -65,6 +63,57 @@
             <em>(CNET News)</em>
         </li>
     </ul>
+
+    <br>
+    
+    <!-- Added h2 for new header changed text size-->
+    <h2 id="jumplink3"> <span style="font-size: 35px">My Top 5 SI-FI Movies</span></h2>
+    
+    <!-- list of movies from latest year down -->
+    <ol>
+        <li>
+            <!-- Added h3 and img for each listing-->
+            <a href="https://www.imdb.com/title/tt4154756/?ref_=nv_sr_1" target="_blank">
+                <h3>Avengers: Infinity War (2018)</h3>
+                <img src="images/avengers.png" alt="Avengers: Infinity War (2018)" height="150px" width="400px">
+            </a>
+        </li>
+
+        <li>
+            
+            <a href="https://www.imdb.com/title/tt1270797/" target="_blank">
+                <h3>Venom (2018)</h3>
+                <img src="images/venom.png" alt="Venom (2018)" height="150px" width="400px">
+            </a>
+        </li>
+
+        <li>  
+            <a href="https://www.imdb.com/title/tt3450958/" target="_blank">
+                <h3>War for the Planet of the Apes (2017)</h3>  
+                <img src="images/war.png" alt="War for the Planet of the Apes (2017)" height="150px" width="350px">
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.imdb.com/title/tt1431045/" target="_blank">
+                <h3>Deadpool (2016)</h3>
+                <img src="images/deadpool.png" alt="Deadpool (2016)" height="200px" width="200px">
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.imdb.com/title/tt1392190/" target="_blank">
+                <h3>Mad Max: Fury Road (2015)</h3>
+                <img src="images/madmax.png" alt="Mad Max: Fury Road (2015)" height="150px" width="400px">
+            </a>
+        </li>
+    </ol>
+
+    <!-- Added a jumpplink taking you back to the top of the page -->
+    <center>
+        <a href="#jumplink"> <img src="images/up.png" alt="click here to go up" height="30px"></a> 
+    </center>
+
 
 
 
